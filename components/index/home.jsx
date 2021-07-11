@@ -33,7 +33,7 @@ export default function IndexHome() {
                             Fullstack developer
                         </GradientText>
                         <GradientText  fontSize="lg" opacity="60%">
-                            I can help you design,develop and deploy beautiful and responsive web apps Fastly.
+                            I can help you <Box as="span" fontWeight="semibold"> design,develop and deploy </Box> beautiful and responsive web apps Fastly.
                         </GradientText>
                         <Box>
                             <Button
