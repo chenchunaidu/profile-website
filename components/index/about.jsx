@@ -3,7 +3,7 @@ import Container from './container'
 
 export default function IndexAbout() {
     return (
-        <Container>
+        <Container id="about">
             
         </Container>
     )

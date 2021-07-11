@@ -1,8 +1,10 @@
+import React from 'react'
+import { Stack } from '@chakra-ui/react'
 
-import {Stack} from "@chakra-ui/react"
-export default function Container({children}) {
+export default function Container({children,background="white",id}) {
+
     return (
-        <Stack height="full" width="full">
+        <Stack height="100vh" background={background} id={id}>
             {children}
         </Stack>
     )

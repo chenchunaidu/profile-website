@@ -1,14 +1,15 @@
 import Head from 'next/head'
 import { Stack } from '@chakra-ui/react'
 import {IndexAbout,IndexBlog,IndexWork,IndexHome} from 'components/index'
+import Layout from "components/layout"
 
 export default function Index() {
   return (
-    <Stack width="full" height="full">
+    <Stack>
       <IndexHome/>
+      <IndexAbout/>
       <IndexWork/>
       <IndexBlog/>
-      <IndexAbout/>
     </Stack>
   )
 }
