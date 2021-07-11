@@ -14,7 +14,6 @@ import IconContainerCircle from './icon-container-circle'
 import {ImArrowRight2} from "react-icons/im"
 
 export default function IndexHome() {
-    
     return (
         <Container id="home">
             <Nav/>
