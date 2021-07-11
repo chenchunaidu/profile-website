@@ -17,7 +17,7 @@ export default function IndexHome() {
     return (
         <Container id="home">
             <Nav/>
-           <Stack direction={{base:"column",lg:"row"}} height="full">
+           <Stack direction={{base:"column-reverse",lg:"row"}} height="full">
                 <Stack  
                     width={{base:"100%",lg:"50%"}}  
                     justifyContent="center" 
@@ -25,7 +25,7 @@ export default function IndexHome() {
                     p="4"  
                     margin="auto"
                 >
-                 <Stack width="auto" maxWidth="50%">
+                 <Stack width="auto" maxWidth={{base:"100%", lg:"50%"}}>
                         <GradientText fontWeight="semibold" fontSize="4xl">
                             Chenchunaidu 
                         </GradientText>
@@ -33,7 +33,7 @@ export default function IndexHome() {
                             Fullstack developer
                         </GradientText>
                         <GradientText  fontSize="lg" opacity="60%">
-                            I can help you design,develop and deploy beautiful and responsive web apps Fastly.
+                            I can help you <Box as="span" fontWeight="semibold"> design,develop and deploy </Box> beautiful and responsive web apps Fastly.
                         </GradientText>
                         <Box>
                             <Button
@@ -60,19 +60,19 @@ export default function IndexHome() {
                         </Box>
                     </Stack>
                 </Stack>
-                <Stack width={{base:"100%",lg:"50%"}} alignItems="center" justifyContent="center">
-                    <SimpleGrid maxWidth="lg" columns="3" spacing="10">
+                <Stack width={{base:"100%",lg:"50%"}} alignItems="center" justifyContent="center" margin="auto" p="4">
+                    <SimpleGrid maxWidth="lg" columns="3" spacing={{base:"8",lg:"10"}}>
                         <IconContainerCircle>
-                            <FaFigma size="72"/>
+                            <FaFigma size="70%"/>
                         </IconContainerCircle>
                         <IconContainerCircle>
-                            <AiFillGithub size="72"/>
+                            <AiFillGithub size="70%"/>
                         </IconContainerCircle>
                         <IconContainerCircle>
-                            <DiReact size="72"/>
+                            <DiReact size="70%"/>
                         </IconContainerCircle>
                         <IconContainerCircle>
-                            <DiPython size="72"/>
+                            <DiPython size="70%"/>
                         </IconContainerCircle>
                         <Image
                         padding="2"
@@ -81,16 +81,16 @@ export default function IndexHome() {
                         borderRadius="full"
                         />
                         <IconContainerCircle>
-                            <DiNodejsSmall size="72"/>
+                            <DiNodejsSmall size="70%"/>
                         </IconContainerCircle>
                         <IconContainerCircle>
-                            <SiNetlify size="72"/>
+                            <SiNetlify size="70%"/>
                         </IconContainerCircle>
                         <IconContainerCircle>
-                            <FaAws size="72"/>
+                            <FaAws size="70%"/>
                         </IconContainerCircle>
                         <IconContainerCircle>
-                            <IoLogoVercel size="72"/>
+                            <IoLogoVercel size="70%"/>
                         </IconContainerCircle>
                         
                                               

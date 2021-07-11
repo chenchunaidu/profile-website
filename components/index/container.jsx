@@ -4,7 +4,7 @@ import { Stack } from '@chakra-ui/react'
 export default function Container({children,background="white",id}) {
 
     return (
-        <Stack height="100vh" background={background} id={id}>
+        <Stack minHeight="100vh" background={background} id={id}>
             {children}
         </Stack>
     )
