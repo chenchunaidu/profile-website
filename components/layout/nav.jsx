@@ -13,7 +13,7 @@ export default function Nav() {
             <Stack>
 
             </Stack>
-            <Stack direction="row" spacing="16">
+            <Stack direction="row" spacing={{base:"6",lg:"16"}}>
                 <GradientText as="a" href="#home">
                     Home
                 </GradientText>
