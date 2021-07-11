@@ -1,3 +1,4 @@
+import React from 'react'
 import Head from 'next/head'
 import { Stack } from '@chakra-ui/react'
 import {IndexAbout,IndexBlog,IndexWork,IndexHome} from 'components/index'
